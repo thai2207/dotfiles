@@ -45,10 +45,8 @@ setopt RM_STAR_SILENT
 zle -N up-line-or-beginning-search
 zle -N down-line-or-beginning-search
 
-# emacs mode
-# I always enter vi mode by mistake
-bindkey -e
 
+<<<<<<< HEAD
 # fuzzy find: start to type
 bindkey "$terminfo[kcuu1]" up-line-or-beginning-search
 bindkey "$terminfo[kcud1]" down-line-or-beginning-search
@@ -82,3 +80,6 @@ if test -d /usr/local/opt/fzf/shell; then
 else
 	bindkey '^R' history-incremental-search-backward
 fi
+=======
+bindkey '^R' history-incremental-search-backward
+>>>>>>> 9895a68f003971d3f2a6559ee8eaae9a359f7f5a
