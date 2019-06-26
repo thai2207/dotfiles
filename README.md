@@ -1,15 +1,10 @@
-# carlos' dotfiles
+# Thai Nguyen' dotfiles
 
 [![Build Status][tb]][tp]
 [![Powered by Antibody][ab]][ap]
 
 > Config files for ZSH, Java, Ruby, Go, Editors, Terminals and more.
 
-![screenshot 1][scrn1]
-
-![screenshot 2][scrn2]
-
-[ap]: https://github.com/getantibody/antibody
 [ab]: https://img.shields.io/badge/powered%20by-antibody-blue.svg?style=flat-square
 [tb]: https://img.shields.io/travis/caarlos0/dotfiles/master.svg?style=flat-square
 [tp]: https://travis-ci.org/caarlos0/dotfiles
