@@ -1,3 +1,3 @@
 #!/bin/sh
-export GOPATH="~/gopath"
+export GOPATH="/Users/thai.nguyen/gopath"
 export PATH="$PATH:$GOPATH/bin"
