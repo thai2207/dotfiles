@@ -6,7 +6,7 @@ zstyle ':completion:*' completer _oldlist _expand _complete _match _ignored _app
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 
 # pasting with tabs doesn't perform completion
-zstyle ':completion:*' insert-tab pending
+#zstyle ':completion:*' insert-tab pending
 
 # rehash if command not found (possibly recently installed)
 zstyle ':completion:*' rehash true
