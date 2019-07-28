@@ -170,9 +170,9 @@ set display+=lastline
 inoremap <C-U> <C-G>u<C-U>
 
 " In many terminal emulators the mouse works just fine, thus enable it.
-if has('mouse')
-  set mouse=a
-endif
+" if has('mouse')
+set mouse=a
+" endif
 
 " If linux then set ttymouse
 let s:uname = system("echo -n \"$(uname)\"")
@@ -365,7 +365,7 @@ endfunction
 
 " set 80 character line limit
 if exists('+colorcolumn')
-  set colorcolumn=80
+  set colorcolumn=800
 else
   au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
 endif
